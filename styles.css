@@ -184,7 +184,8 @@ h2 {
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
-.alto-contraste .btn-primary{
+.alto-contraste .btn-primary
+.alto-contraste .opcoes-acessibilidade button{
     background-color: var(--rosa-claro);
     color: var(--alto-contraste-fundo)
 }
