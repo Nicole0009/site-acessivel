@@ -141,6 +141,7 @@ h2 {
     background-color: #F1EDEF;
 }
 .menu-acessibilidade{
+    color: #e973cf;
     position: fixed;
     top:2rem;
     right:20px;
@@ -184,7 +185,7 @@ h2 {
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary{
-    background-color: var(--alto-contraste-link);
+    background-color: var(--rosa-claro);
     color: var(--alto-contraste-fundo)
 }
 
@@ -199,9 +200,8 @@ h2 {
     background: none;
 }
 
-.alto-contraste .botao-inicio,
-.alto-contraste .formulario button,
-.alto-contraste .btn-primary {
-    background-color: var(--rosa-claro);
-    color: var(--alto-contraste-fundo);
+.formulario button {
+    background-color: var(--rosa-claro); /* Substituindo o valor fixo */
+    border: none;
+    font-weight: bold;
 }
